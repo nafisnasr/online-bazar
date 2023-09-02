@@ -1,0 +1,62 @@
+/* start navbar styles */
+.navbar-main {
+  width: 80%;
+  height: 80px;
+  background-color: #fff !important;
+  border-radius: 5px;
+  position: absolute;
+  top: -30px;
+}
+.nav-title {
+  font-family: "Lalezar";
+  text-decoration: none;
+  font-size: 25px;
+  color: #616060;
+}
+.nav-title span {
+  font-family: "Lalezar";
+  color: var(--color);
+}
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-item {
+  color: #616060;
+  font-size: 15px;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+  background-color: #fff;
+  margin-right: 60px;
+}
+.search-container {
+  background-color: var(--body);
+  padding: 10px;
+  border-radius: 10px;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search-box {
+  border: none;
+  outline: none;
+  background-color: unset;
+  font-size: 13px;
+  width: 90%;
+}
+.search-icon {
+  cursor: pointer;
+}
+@media screen and (max-width: 990px) {
+  .navbar-main {
+    width: 100%;
+  }
+
+}
+/* end navbar styles */

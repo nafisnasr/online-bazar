@@ -1,0 +1,30 @@
+/* start page styles */
+
+.main-page {
+  background-color: var(--body);
+  padding: 10px;
+}
+
+.page-container {
+  width: 90%;
+  padding: 20px;
+  direction: rtl;
+}
+.main-page .container {
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 10px;
+}
+.main-page .container .title {
+  text-align: center;
+  font-size: 20px;
+  color: #212121;
+  margin: 20px 0px;
+}
+.main-page .container p {
+  color: var(--subtext);
+  font-size: 14px;
+  line-height: 40px;
+}
+
+/* end page styles */

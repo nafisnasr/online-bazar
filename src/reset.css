@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "vazir";
+}
+
+@font-face {
+  font-family: "vazir";
+  src: url("style/vazir-font-v16.1.0/Vazir-Medium.eot");
+  src: url("style/vazir-font-v16.1.0/Vazir-Bold.eot");
+  src: url("style/vazir-font-v16.1.0/Vazir-Light.eot");
+  src: url("style/vazir-font-v16.1.0/Vazir-Bold.woff") format("woff");
+  src: url("style/vazir-font-v16.1.0/Vazir-Medium.woff") format("woff");
+  src: url("style/vazir-font-v16.1.0/Vazir-Light.woff") format("woff");
+  src: url("style/vazir-font-v16.1.0/Vazir-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lalezar";
+  src: url(style/lalezar/Lalezar-Regular.otf);
+  src: url(style/lalezar/Lalezar-Regular.ttf);
+}
+:root {
+  --color: #4b8106;
+  --body: #f6f6f6;
+  --subtext:#646464;
+}
+body {
+  background-color: var(--body);
+}
+.link {
+  color: inherit;
+  text-decoration: none;
+}

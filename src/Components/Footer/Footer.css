@@ -1,0 +1,91 @@
+/* start footer styles */
+.footer {
+  width: 100%;
+  padding: 20px;
+  direction: rtl;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+.footer-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.right-col {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 20px 0px;
+}
+.right-col
+.about-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.right-col .title-box {
+  font-size: 25px;
+  color: var(--color);
+}
+.right-col .title-box .title {
+  font-family: "Lalezar";
+}
+.about-box .title {
+  color: var(--color);
+  font-weight: bold;
+  font-size: 18px;
+}
+.about-box .detail {
+  color: var(--subtext);
+  font-size: 15px;
+}
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-box {
+  background-color: #ffff;
+  border-radius: 50%;
+  padding: 10px;
+  margin-left: 20px;
+}
+.social-media .icon {
+  color: var(--subtext);
+  font-size: 23px;
+  cursor: pointer;
+}
+.center-col {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  margin: 20px 0px;
+}
+
+.center-col .right,
+.left {
+  display: flex;
+  flex-direction: column;
+}
+.center-col .list-item {
+  color: var(--subtext);
+  font-size: 14px;
+  margin-top: 20px;
+}
+.left-col {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px 0px;
+  padding: 20px;
+}
+@media screen and (max-width: 1150px) {
+  .title-box {
+    visibility: hidden;
+  }
+}
+/* end footer styles */

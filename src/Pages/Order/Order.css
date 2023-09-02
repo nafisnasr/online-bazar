@@ -1,0 +1,18 @@
+.order {
+  background-color: var(--body);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.order-box-wrapper {
+  border-radius: 10px;
+  box-shadow: 0 0 5px hsla(0, 0%, 74.9%, 0.5);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  direction: rtl;
+  background-color: #fff;
+}
+
